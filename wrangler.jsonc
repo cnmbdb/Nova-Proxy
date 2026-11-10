@@ -1,14 +1,14 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "web-app",
+  "name": "nova-proxy",
   "main": "worker.js",
   "compatibility_date": "2026-07-30",
   "compatibility_flags": ["nodejs_compat"],
   "d1_databases": [
-    { "binding": "DB" }
+    { "binding": "DB", "database_name": "nova-proxy-db", "database_id": "0d9e4344-6142-4fb6-ab37-19b8cce44c02" }
   ],
   "kv_namespaces": [
-    { "binding": "KV" }
+    { "binding": "KV", "id": "c003c93b032045c395b3fa05564aab02" }
   ],
   "workers_dev": true,
   "preview_urls": true,
