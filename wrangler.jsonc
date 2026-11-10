@@ -11,6 +11,9 @@
     { "binding": "KV", "id": "c003c93b032045c395b3fa05564aab02" }
   ],
   "workers_dev": true,
+  "routes": [
+    { "pattern": "vll.so225.cc", "custom_domain": true }
+  ],
   "preview_urls": true,
   "observability": {
     "enabled": true,
